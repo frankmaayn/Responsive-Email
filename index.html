@@ -31,10 +31,24 @@
         color:white;
       }
       
+      #join-button {
+        background-color:#9dc6ed;
+      }
+      
+      #unsubscribe-button {
+        background-color:#a3a5b8;
+      }
+      
+      #join-button:hover, #unsubscribe-button:hover {
+        background-color:white;
+      }
+      
       td {
         padding: 10px 15px 10px 15px;
         font-family:Arial, sans-serif;
       }
+      
+      
 			
 			/* RESET STYLES */
 			img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
@@ -130,7 +144,6 @@
            Sincerely, <br>
            Stan Hung <br>
            Chairman & Chief Strategic Officer <br>
-           
          </p>
   
        </td>
@@ -138,8 +151,8 @@
       <tr style="background-color:#808080">
         <td >
           <footer>
-            <button>JOIN NOW</button>
-            <button>UNSUBSCRIBE</button>
+            <button id="join-button">JOIN NOW</button>
+            <button id="unsubscribe-button">UNSUBSCRIBE</button>
           </footer>
         </td>
       </tr>
