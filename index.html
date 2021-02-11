@@ -11,26 +11,13 @@
 			table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
 			img { -ms-interpolation-mode: bicubic; }
       
-      #main-table {
-        width: 50%; 
-        margin:2% auto; 
-        overflow-x:auto; 
-        background-color: white
+  
+       td {
+        padding: 10px 15px 10px 15px;
+        font-family:Arial, sans-serif;
       }
       
-      #banner-content {
-        position: absolute; 
-        top: 50%; 
-        left: 29%;
-        transform: translate(-50%, -50%);
-      }
-      
-      #banner {
-        position: relative; 
-        text-align:left; 
-        color:white;
-      }
-
+  
       .footer-link {
         color:white;
         text-decoration:none;
@@ -39,12 +26,6 @@
       .footer-link:hover {
         color:#2d61e3;
       }
-      
-      td {
-        padding: 10px 15px 10px 15px;
-        font-family:Arial, sans-serif;
-      }
-      
       
 			
 			/* RESET STYLES */
@@ -91,13 +72,13 @@
 	</head>
 	<body id="body" style="margin: 0 !important; padding: 0 !important; background-color: black">
  
-    <table id="main-table">
+    <table style="width: 50%; margin:2% auto; overflow-x:auto;background-color: white">
 	  <!-- Logo image, banner, hero image -->
      <tr>
         <th>
-          <div id="banner">
+          <div id="banner" style="position: relative; text-align:left; color:white;">
             <img src="https://cdn.glitch.com/a1900541-fe37-4280-be34-33e214114843%2Fistockphoto-1176664047-612x612.jpg?v=1612513430148" alt="blue_background_with_a_micro_processor" style="width:100%; height: 50%;">
-            <div id="banner-content">
+            <div style="position: absolute; top: 50%; left: 29%; transform: translate(-50%, -50%);">
               <table id="header-table">
                 <tr>
                   <td>
