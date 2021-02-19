@@ -103,8 +103,13 @@
       
       /* Animations*/
       @keyframes fade-in {
-        from{opacity:0; transform: scale}
+        from{opacity:0; transform: scale(0.8);}
+        to {opacity:1; transform: scale(1)}
       }
+      
+      .fade1 {animation: 6s 1 fade-in;}
+      .fade2 {animation: 12s 1 fade-in;}
+      .fade3 {animation: 18s 1 fade-in;}
 
       /* Responsive styles */
       @media screen and (max-width: 600px){
@@ -137,7 +142,7 @@
             <!-- Header -->
             <tr>
               <td background="https://cdn.glitch.com/a1900541-fe37-4280-be34-33e214114843%2Fpngtree-co-constructed-technology-network-security-technology-wind-cool-banner-image_196702.jpg?v=1612507968345" bgcolor="#9dc6ed" style="background: #9dc6ed url('https://cdn.glitch.com/a1900541-fe37-4280-be34-33e214114843%2Fpngtree-co-constructed-technology-network-security-technology-wind-cool-banner-image_196702.jpg?v=1612507968345'); text-align:center">
-                  <h2 style="color:white">BE PART OF A GROWING COMMUNITY</h2>
+                  <h2 class="fade1" style="color:white">BE PART OF A GROWING COMMUNITY</h2>
               </td>
             </tr>
             
@@ -193,7 +198,7 @@
             <!-- Header 2 -->
             <tr>
               <td background="https://cdn.glitch.com/a1900541-fe37-4280-be34-33e214114843%2Fpngtree-co-constructed-technology-network-security-technology-wind-cool-banner-image_196702.jpg?v=1612507968345" bgcolor="#9dc6ed" style="background: #9dc6ed url('https://cdn.glitch.com/a1900541-fe37-4280-be34-33e214114843%2Fpngtree-co-constructed-technology-network-security-technology-wind-cool-banner-image_196702.jpg?v=1612507968345'); text-align:center">
-                  <h2 style="color:white">LEADING FOUNDRY SOLUTIONS</h2>
+                  <h2 class="fade2" style="color:white">LEADING FOUNDRY SOLUTIONS</h2>
               </td>
             </tr>
             
@@ -245,7 +250,7 @@
             <!-- Header 3 -->
             <tr>
               <td background="https://cdn.glitch.com/a1900541-fe37-4280-be34-33e214114843%2Fpngtree-co-constructed-technology-network-security-technology-wind-cool-banner-image_196702.jpg?v=1612507968345" bgcolor="#9dc6ed" style="background: #9dc6ed url('https://cdn.glitch.com/a1900541-fe37-4280-be34-33e214114843%2Fpngtree-co-constructed-technology-network-security-technology-wind-cool-banner-image_196702.jpg?v=1612507968345'); text-align:center">
-                  <h2 style="color:white">NEWSROOM</h2>
+                  <h2 class="fade3" style="color:white">NEWSROOM</h2>
               </td>
             </tr>
             
