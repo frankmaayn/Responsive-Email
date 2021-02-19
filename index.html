@@ -30,15 +30,6 @@
       
       
 
-      .footer-link {
-        color: white;
-        text-decoration: none;
-      }
-
-      .footer-link:hover {
-        color: #073ff7;
-      }
-
       /* RESET STYLES */
       img {
         border: 0;
@@ -89,6 +80,16 @@
       }
 
       /* Universal styles for links and stuff */
+      
+      .footer-link {
+        color: white;
+        
+      }
+
+      .footer-link:hover {
+        color: #073ff7;
+      }
+      
       td.button {
         background-color:#e6e8eb !important;
       }
@@ -99,11 +100,16 @@
         transform: translateY(-2px);
         transition-duration:0.5s;
       }
+      
+      /* Animations*/
+      @keyframes fade-in {
+        from{opacity:0; transform: scale}
+      }
 
       /* Responsive styles */
       @media screen and (max-width: 600px){
         
-        .mobile {width:100% !important;}
+        .mobile {width:100% !important; font-size:15px !important;}
         
         .block {display:block !important; width: 100% !important;}
       }
@@ -254,9 +260,11 @@
                         <!-- Hero Image 1-->
                         <tr>
                           <td class="button">
-                            <a href="https://www.umc.com/en/Download/quarterly_results/QuarterlyResultsDetail/2020/2020Q4" target="_blank" style="text-decoration:none; color:black;">
                             <h3 style="text-align:left">INVESTOR</h3>
-                            <p>2021-01-27<br><br>UMC 4Q 2020 Financial Results</p><br><br><br><br><br>
+                            <p>2021-01-27</p><br>
+                            <a href="https://www.umc.com/en/Download/quarterly_results/QuarterlyResultsDetail/2020/2020Q4" target="_blank" style="">
+                        
+                            <p>UMC 4Q 2020 Financial Results</p><br><br><br><br><br>
                             <img src="https://cdn.glitch.com/c3889122-cd45-4b33-b478-e8f4c6c84f76%2Ftim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg?v=1613162880331" alt="Image of two people working in an office" style=" min-width:100px; max-width:100%; height:auto">
                             
                             </a>
@@ -268,11 +276,11 @@
                         <!-- Hero Image 1-->
                         <tr>
                           <td class="button">
-                            <a href="https://www.umc.com/en/News/press_release/Content/corporate/20210110" target="_blank" style="text-decoration:none; color:black;">
                             <h3 style="text-align:left">CORPORATE</h3>
-                              <p>2021-01-10<br><br>UMC Reports No Significant Financial Impact Following Power Disruption</p><br><br>
+                            <p>2021-01-10</p><br>
+                            <a href="https://www.umc.com/en/News/press_release/Content/corporate/20210110" target="_blank">
+                              <p>UMC Reports No Significant Financial Impact Following Power Disruption</p><br><br>
                             <img src="https://cdn.glitch.com/c3889122-cd45-4b33-b478-e8f4c6c84f76%2Ftim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg?v=1613162880331" alt="Image of two people working in an office" style=" min-width:100px; max-width:100%; height:auto">
-                            
                             </a>
                           </td>
                         </tr>
@@ -284,8 +292,8 @@
                         <tr >
                           <td class="button" style="height: 20px">
                             <h3 style="text-align:left">TECHNOLOGY</h3>
-                            <p>2020-12-10<br><br>
-                            <a href="https://www.umc.com/en/News/press_release/Content/technology_related/20201210" target="_blank" style=" ">
+                            <p>2020-12-10</p><br>
+                            <a href="https://www.umc.com/en/News/press_release/Content/technology_related/20201210" target="_blank">
                                <p> 
                                  eMemory and PUFsecurity Announce with UMC the World's First PUF-based Secure Embedded Flash Solution
                               </p>
