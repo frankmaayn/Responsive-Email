@@ -114,6 +114,18 @@
         transition-duration:0.5s;
       }
       
+      input[type="radio"] {
+        position: absolute;
+        bottom: 0;
+        left: -9999px;
+      }
+      
+      .container {
+        max-width: 10px;
+        padding: 0 5px;
+        margin: 0 auto;
+      }
+      
       /* Animations*/
       @keyframes fade-in {
         from{opacity:0; transform: scale(0.8);}
@@ -262,40 +274,37 @@
                 <input type="radio" id="slide-show-image3" name="slide-show" checked>
                 
                 <div class="container">
-  <div class="featured-wrapper">
-    <ul class="featured-list">
-      <li>
-        <figure>
-          <img src="IMG_SRC" alt="">
-        </figure>
-      </li>
-      <!-- other two list items here -->
-    </ul>
-    <ul class="arrows">
-      <li>
-        <label for="image1"></label>
-      </li>
-      <li>
-        <label for="image2"></label>
-      </li>
-      <li>
-        <label for="image3"></label>
-      </li>
-    </ul>
-    <ul class="dots">
-      <li>
-        <label for="image1"></label>
-      </li>
-      <li>
-        <label for="image2"></label>
-      </li>
-      <li>
-        <label for="image3"></label>
-      </li>
-    </ul>
-  </div>
-  
-</div>
+                  <div class="featured-wrapper">
+                    <ul class="featured-list">
+                      <li>
+                        <figure>
+                          <img src="https://cdn.glitch.com/c3889122-cd45-4b33-b478-e8f4c6c84f76%2Fmaxim-hopman-IayKLkmz6g0-unsplash.jpg?v=1613274045601" alt="Multiple monitors in a dark room">
+                        </figure>
+                      </li>
+                      <li>
+                        <figure>
+                          <img src="https://cdn.glitch.com/c3889122-cd45-4b33-b478-e8f4c6c84f76%2Fchristina-wocintechchat-com-glRqyWJgUeY-unsplash.jpg?v=1613274049688" alt="Female on her laptop in the hallway">
+                        </figure>
+                      </li>
+                      <li>
+                        <figure>
+                          <img src="https://cdn.glitch.com/c3889122-cd45-4b33-b478-e8f4c6c84f76%2Fthisisengineering-raeng-t4qI2IDcL5s-unsplash.jpg?v=1613162912446" alt="People working">
+                        </figure>
+                      </li>
+                    </ul>
+                    <ul class="arrows">
+                      <li>
+                        <label for="slide-show-image1"></label>
+                      </li>
+                      <li>
+                        <label for="slide-show-image2"></label>
+                      </li>
+                      <li>
+                        <label for="slide-show-image3"></label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </td>
             </tr>
             <!-- Detail -->
