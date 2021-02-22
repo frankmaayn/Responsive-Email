@@ -1,0 +1,21 @@
+Outlook (Desktop)
+	- the sizing were off
+	- the layout that i created was pretty much woped out.
+	- There are a few images that werent working as well
+
+GMAIL (Desktop)
+	- the formatting was good; they look similar to the original
+	- the name of the company got shifted down and merged with the white background.
+	- the overall message did not get affected.
+
+
+Yahoo (Desktop)
+	- The title got shifted down similar to Gmail and outlook
+	- The black background disappeared, so it is now a white background instead.
+	- Everything else looks good. The message did not get lost.
+
+
+Outlook / Gmail / Yahoo (Mobile)
+	- the images were working well.
+	- Some got shifted by the message did not get lost.
+	- It looks better on mobile than it is on desktop
