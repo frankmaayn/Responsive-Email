@@ -107,8 +107,10 @@
       .slide {display:none;}
       
       
-      #slide-show-image1:checked ~ .slide-show-image1 {
-        displat:block;
+      #slide-show-image1:checked ~ .slide-show-image1, 
+      #slide-show-image2:checked ~ .slide-show-image2,
+      #slide-show-image3:checked ~ .slide-show-image3 {
+        display:block;
       }
       
       
@@ -231,38 +233,7 @@
               </td>
             </tr>
             
-            <!-- Two Column Hero Images -->
-            <tr>
-              <td>
-                <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%" >
-                  <tr>
-                    <td>
-                      
-                      <!-- Left Table-->
-                      <table class="block" align="left" border="0" cellpadding="0" cellspacing="0" role="presentation" width="50%" >
-                        <!-- Hero Image 3-->
-                        <tr>
-                          <td align="center">
-                           <img class="candide-image" src="https://cdn.glitch.com/c3889122-cd45-4b33-b478-e8f4c6c84f76%2Fmaxim-hopman-IayKLkmz6g0-unsplash.jpg?v=1613274045601" alt="People looking at multiple monitors inside of a building" style="min-width:100px; max-width:100%; height:auto"> 
-                          </td>
-                        </tr>
-                      </table>
-                      
-                      <!-- Right Table -->
-                      <table class="block" align="right" border="0" cellpadding="0" cellspacing="0" role="presentation" width="50%" >
-                        
-                         <!-- Hero Image 4-->
-                        <tr>
-                          <td align="center">
-                             <img class="candide-image" src="https://cdn.glitch.com/c3889122-cd45-4b33-b478-e8f4c6c84f76%2Fchristina-wocintechchat-com-glRqyWJgUeY-unsplash.jpg?v=1613274049688" alt="Female holding a laptop while leaning on a glass wall in the hallway" style="min-widt:100px; max-width:100%;heigh:auto">
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
+            
             <tr>
               <td align="center" style="padding:20px">
                 
@@ -270,22 +241,18 @@
                 <input type="radio" id="slide-show-image1" name="slide-show" checked>
                 <input type="radio" id="slide-show-image2" name="slide-show">
                 <input type="radio" id="slide-show-image3" name="slide-show">
-                
-                <label for="slide-show-image1"></label>
-                <label for="slide-show-image2"></label>
-                <label for="slide-show-image3"></label>
-
   
-                <div class="slide slide-show-image1" style="background-color:black; padding:20px height:300x; width:300px; ">
+                <div class="slide slide-show-image1" style=" padding:20px height:300x; width:500px; ">
                   <img src="https://cdn.glitch.com/c3889122-cd45-4b33-b478-e8f4c6c84f76%2Fmaxim-hopman-IayKLkmz6g0-unsplash.jpg?v=1613274045601" alt="People looking at multiple monitors inside of a building" style="min-width:100px; max-width:100%; height:auto"> 
                 </div>
-                <div class="slide slide-show-image2" style="background-color:black; padding:20px">
-                  <img src="https://cdn.glitch.com/c3889122-cd45-4b33-b478-e8f4c6c84f76%2Fmaxim-hopman-IayKLkmz6g0-unsplash.jpg?v=1613274045601" alt="People looking at multiple monitors inside of a building" style="min-width:100px; max-width:100%; height:auto"> 
+                <div class="slide slide-show-image2" style=" padding:20px height:300x; width:500px; ">
+                  <img src="https://cdn.glitch.com/c3889122-cd45-4b33-b478-e8f4c6c84f76%2Fthisisengineering-raeng-t4qI2IDcL5s-unsplash.jpg?v=1613162912446" alt="People working inside of a building" style="min-width:100px; max-width:100%; height:auto"> 
                 </div>
-                <div class="slide slide-show-image3" style="background-color:black; padding:20px">
-                  <p>HELLO</p>
-                  <img  src="https://cdn.glitch.com/c3889122-cd45-4b33-b478-e8f4c6c84f76%2Fmaxim-hopman-IayKLkmz6g0-unsplash.jpg?v=1613274045601" alt="People looking at multiple monitors inside of a building" style="min-width:100px; max-width:100%; height:auto"> 
-                </div> 
+                <div class="slide slide-show-image3" style="padding:20px height:300x; width:500px; ">
+                  <img src="https://cdn.glitch.com/c3889122-cd45-4b33-b478-e8f4c6c84f76%2Fchristina-wocintechchat-com-glRqyWJgUeY-unsplash.jpg?v=1613274049688" alt="Female working in a hallway" style="min-width:100px; max-width:100%; height:auto"> 
+                </div>
+              
+                
               </td>
             </tr>
             <!-- Detail -->
