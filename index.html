@@ -102,14 +102,12 @@
         transform: translateY(-2px);
         transition-duration:0.5s;
       }
+     
       
       .slide {display:none;}
       
-      label {cursor:pointer;}
       
-      #slide-show-image1:checked ~ .slide-show-image1,
-      #slide-show-image2:checked ~ .slide-show-image2,
-      #slide-show-image3:checked ~ .slide-show-image3 {
+      #slide-show-image1:checked ~ .slide-show-image1 {
         displat:block;
       }
       
@@ -266,25 +264,28 @@
               </td>
             </tr>
             <tr>
-              <td align="center">
+              <td align="center" style="padding:20px">
                 
                 <!-- Trigger for switching content -->
                 <input type="radio" id="slide-show-image1" name="slide-show" checked>
                 <input type="radio" id="slide-show-image2" name="slide-show">
                 <input type="radio" id="slide-show-image3" name="slide-show">
                 
+                <label for="slide-show-image1"></label>
+                <label for="slide-show-image2"></label>
+                <label for="slide-show-image3"></label>
 
+  
                 <div class="slide slide-show-image1" style="background-color:black; padding:20px height:300x; width:300px; ">
-                  <img class="candide-image" src="https://cdn.glitch.com/c3889122-cd45-4b33-b478-e8f4c6c84f76%2Fmaxim-hopman-IayKLkmz6g0-unsplash.jpg?v=1613274045601" alt="People looking at multiple monitors inside of a building" style="min-width:100px; max-width:100%; height:auto"> 
+                  <img src="https://cdn.glitch.com/c3889122-cd45-4b33-b478-e8f4c6c84f76%2Fmaxim-hopman-IayKLkmz6g0-unsplash.jpg?v=1613274045601" alt="People looking at multiple monitors inside of a building" style="min-width:100px; max-width:100%; height:auto"> 
                 </div>
                 <div class="slide slide-show-image2" style="background-color:black; padding:20px">
-                  <img class="candide-image" src="https://cdn.glitch.com/c3889122-cd45-4b33-b478-e8f4c6c84f76%2Fmaxim-hopman-IayKLkmz6g0-unsplash.jpg?v=1613274045601" alt="People looking at multiple monitors inside of a building" style="min-width:100px; max-width:100%; height:auto"> 
+                  <img src="https://cdn.glitch.com/c3889122-cd45-4b33-b478-e8f4c6c84f76%2Fmaxim-hopman-IayKLkmz6g0-unsplash.jpg?v=1613274045601" alt="People looking at multiple monitors inside of a building" style="min-width:100px; max-width:100%; height:auto"> 
                 </div>
                 <div class="slide slide-show-image3" style="background-color:black; padding:20px">
                   <p>HELLO</p>
-                  <img class="candide-image" src="https://cdn.glitch.com/c3889122-cd45-4b33-b478-e8f4c6c84f76%2Fmaxim-hopman-IayKLkmz6g0-unsplash.jpg?v=1613274045601" alt="People looking at multiple monitors inside of a building" style="min-width:100px; max-width:100%; height:auto"> 
-                </div>
-                        
+                  <img  src="https://cdn.glitch.com/c3889122-cd45-4b33-b478-e8f4c6c84f76%2Fmaxim-hopman-IayKLkmz6g0-unsplash.jpg?v=1613274045601" alt="People looking at multiple monitors inside of a building" style="min-width:100px; max-width:100%; height:auto"> 
+                </div> 
               </td>
             </tr>
             <!-- Detail -->
