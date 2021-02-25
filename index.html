@@ -82,8 +82,7 @@
       /* Universal styles for links and stuff */
       
       .footer-link {
-        color: white;
-        
+        color: white; 
       }
 
       .footer-link:hover {
@@ -103,10 +102,10 @@
         transition-duration:0.5s;
       }
      
-      
+     
+      label {display: none;}
       .slide {display:none;}
-      
-      
+          
       #slide-show-image1:checked ~ .slide-show-image1, 
       #slide-show-image2:checked ~ .slide-show-image2,
       #slide-show-image3:checked ~ .slide-show-image3 {
@@ -221,9 +220,7 @@
                             </p>
                           </td>
                         </tr>
-                      </table>
-                      
-                      
+                      </table>                  
                     </td>
                   </tr>
                 </table>
@@ -241,14 +238,18 @@
             <tr>
               <td align="center" style="padding:20px">
                 
-                
                 <!-- Trigger for switching content -->
                 <input type="radio" id="slide-show-image1" name="slide-show" checked>
                 <input type="radio" id="slide-show-image2" name="slide-show">
                 <input type="radio" id="slide-show-image3" name="slide-show">
+                
+                <label for="slide-show-image1">Slide 1</label>
+                <label for="slide-show-image2">Slide 2</label>
+                <label for="slide-show-image3">Slide 3</label>
+                
   
                 
-                <!-- Images to be show -->
+                <!-- Images to be shown -->
                 <div class="slide slide-show-image1 " style="background-color:#d5edf5;margin-top:20px; padding:20px;">
                   <img src="https://cdn.glitch.com/4811dac8-e22b-44f5-b1f9-983222086a11%2Frob-lambert-9Q_pLLP_jmA-unsplash.jpg?v=1614088853960" alt="Mechanic" style="min-width:100px; max-width:100%; height:auto"> 
                 </div>
@@ -257,11 +258,10 @@
                 </div>
                 <div class="slide slide-show-image3" style="background-color:#d5edf5; margin-top:20px; padding:20px;">
                   <img src="https://cdn.glitch.com/4811dac8-e22b-44f5-b1f9-983222086a11%2Fkrzysztof-hepner-60g-xu5-zfk-unsplash.jpg?v=1614088984282" alt="AMD Ryzen" style="min-width:100px; max-width:100%; height:auto"> 
-                </div>
-              
-                
+                </div>             
               </td>
             </tr>
+            
             <!-- Detail -->
             <tr>
               <td>
@@ -337,9 +337,7 @@
                             </a>
                           </td>
                         </tr>
-                      </table>
-                      
-                      
+                      </table>                 
                     </td>
                   </tr>
                 </table>
@@ -362,11 +360,11 @@
             <!--Footers-->
             <tr>
               <td style="text-align:center;background-color:#808080">
-                    <a class="footer-link" style="font-size:0.8em" href="https://www.umc.com/en/StaticPage/about_overview" target="_blank">About</a> |
-                    <a class="footer-link" style="font-size:0.8em" href="https://careersumc.com/en/index.php" target="_blank">Careers</a> |
-                    <a class="footer-link" style="font-size:0.8em" href="https://www.umc.com/en/home/Index" target="_blank">Contact Us</a> |
-                    <a class="footer-link" style="font-size:0.8em" href="https://www.umc.com/upload/media/index/Terms_and_Conditions_2020.pdf" target="_blank">Terms and Conditions</a> |
-                    <a class="footer-link" style="font-size:0.8em" href="https://" target="_blank">Unsubscribe</a>
+                  <a class="footer-link" style="font-size:0.8em" href="https://www.umc.com/en/StaticPage/about_overview" target="_blank">About</a> |
+                  <a class="footer-link" style="font-size:0.8em" href="https://careersumc.com/en/index.php" target="_blank">Careers</a> |
+                  <a class="footer-link" style="font-size:0.8em" href="https://www.umc.com/en/home/Index" target="_blank">Contact Us</a> |
+                  <a class="footer-link" style="font-size:0.8em" href="https://www.umc.com/upload/media/index/Terms_and_Conditions_2020.pdf" target="_blank">Terms and Conditions</a> |
+                  <a class="footer-link" style="font-size:0.8em" href="https://" target="_blank">Unsubscribe</a>
                   <p style="font-size:0.7em">
                     No. 3, Li-Hsin 2nd Road, Hsinchu Science Park, Hsinchu, Taiwan, R.O.C.<br>
                     © 2021 United Microelectronics Corporation. All Rights Reserved.
